@@ -1,0 +1,248 @@
+#form-builder-container h2 {
+	/*margin: 0 0 10px;*/
+	padding: 0;
+	font-weight: bold;
+	/*text-decoration: underline;*/ }
+
+  #form-builder-container h2 span {
+	float: right; }
+
+  #form-builder-container #dropzone {
+	border: 1px solid green; }
+
+  #form-builder-container label {
+	display: block !important;
+	cursor: default !important; }
+
+  #form-builder-container .col-1-2 {
+	width: 49%;
+	display: inline-block;
+	float: left; }
+
+  #form-builder-container .hidden {
+	display: none; }
+
+  #form-builder-container input[type="hidden"] {
+	opacity: .5;
+	display: block; }
+
+  /* ============================================================= */
+  #form-builder-container .select-arrow {
+	position: absolute;
+	font-size: 24px;
+	font-weight: bold;
+	color: green; }
+
+  #form-builder-container .item {
+	display: block;
+	margin-bottom: 10px; }
+
+  #form-builder-container .pull-left {
+	display: inline-block; }
+
+  #form-builder-container .pull-right {
+	display: inline-block; }
+
+  #form-builder-container .item-header .pull-right .delete {
+	font-size: 14px;
+	margin-top: 2px;
+	padding: 5px;
+	cursor: pointer; }
+
+  #form-builder-container .add_fields_ul {
+	margin: 0 0 20px;
+	padding: 0;
+	list-style-type: none;
+
+	border-width: 0 1px 1px;
+	border-style: none solid solid;
+	background-color: #FFF;
+	border-color: #DFDFDF;
+	padding: 12px;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1); }
+
+  #form-builder-container .add_fields_ul li {
+	display: inline-block; }
+
+  #form-builder-container .add_fields_ul p {
+	margin-top: 0; }
+
+  #form-builder-container .form-fields-toggle {
+	margin-bottom: 10px; }
+
+  #form-builder-container .toggle-trigger {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #DFDFDF;
+	padding: 8px 12px 5px;
+	white-space: nowrap;
+	background: #FFF;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+	margin-bottom: 0;
+}
+
+  /* ============================================================= */
+  #form-builder-container #drag-and-drop-box {
+	position: relative;
+	overflow: auto; }
+
+  #form-builder-container #dropzone {
+	min-height: 250px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none; }
+
+  #form-builder-container #dropzone .item-header {
+	background: #D2E0EB;
+	overflow: auto;
+	padding: 5px 10px; }
+
+  #form-builder-container #dropzone .inner-content {
+	padding: 10px; }
+
+  #form-builder-container #dropzone .inner-content p.bold-hint {
+	margin: .25rem 0; }
+
+  #form-builder-container #dropzone .item {
+	border: 1px solid #dedede; }
+
+  /* ============================================================= */
+  #form-builder-container #settings-container {
+	border: 2px dashed black;
+	padding: 10px;
+	background: white; }
+
+  #form-builder-container #settings-container input[type="text"],
+  #form-builder-container #settings-container input[type="url"] {
+	width: 100%; }
+
+  /*#form-builder-container #settings-container input:not([type="checkbox"]):not([type="radio"]) {
+	  margin-bottom: 1rem;
+  }*/
+  #form-builder-container #settings-container input:last-child {
+	margin-bottom: 0; }
+
+  #form-builder-container #settings-container .form-check {
+	margin-top: 0; }
+
+  #form-builder-container #settings-container .updated-text {
+	display: inline-block;
+	margin: 0; }
+
+  #form-builder-container #settings-container .text-red {
+	color: red; }
+
+  #form-builder-container .stuck {
+	position: fixed;
+	top: 37px;
+	width: 100%;
+	max-width: 366px; }
+
+  #form-builder-container .sticky-bottom {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	max-width: 366px; }
+
+  #form-builder-container .waypoint-trigger-end {
+	position: relative;
+	clear: both; }
+
+  #form-builder-container .right-column-container {
+	padding: 20px;
+	position: relative;
+	height: 100%;
+	max-height: 100%; }
+
+  #form-builder-container .settings-btn {
+	margin: 0 0 20px; }
+
+  /*
+  .tool-drawer { }
+  .tool-drawer .fa {
+	padding: 5px;
+  }
+  */
+  #form-builder-container .field-title {
+	padding: 5px 0;
+	text-transform: capitalize;
+	font-size: 14px; }
+
+  #form-builder-container .field-title .field_type {
+	font-weight: bold; }
+
+  #form-builder-container .field-options {
+	display: none;
+	margin-top: 20px; }
+
+  #form-builder-container .desc {
+	font-size: 11px;
+	margin: 0;
+	color: #777; }
+
+  /* ============================================================= */
+  #form-builder-container pre {
+	overflow: auto;
+	font-family: monospace, monospace;
+	font-size: 1em;
+	display: block;
+	padding: 9.5px;
+	margin: 0 0 10px;
+	font-size: 13px;
+	line-height: 1.42857143;
+	color: #333;
+	word-break: break-all;
+	word-wrap: break-word;
+	background-color: #f5f5f5;
+	border: 1px solid #ccc;
+	border-radius: 4px; }
+
+  #form-builder-container pre,
+  #form-builder-container blockquote {
+	border: 1px solid #999;
+	page-break-inside: avoid; }
+
+  #form-builder-container pre code {
+	padding: 0;
+	font-size: inherit;
+	color: inherit;
+	white-space: pre-wrap;
+	background-color: transparent;
+	border-radius: 0; }
+
+  #form-builder-container .field-choice-row input[type="text"] {
+	display: inline-block;
+	max-width: 125px; }
+
+  #form-builder-container #field_choices .field-choice-value {
+	display: none; }
+
+  #form-builder-container #divShowHideValues {
+	float: right; }
+
+  #form-builder-container #divShowHideValues input {
+	display: inline-block !important; }
+
+  #form-builder-container #divShowHideValues label {
+	display: inline-block !important; }
+
+  #form-builder-container .item[data-type="checkbox"] .inner-content label {
+	display: inline-block !important;
+	margin-left: 5px; }
+
+  #form-builder-container .item[data-type="radio"] .inner-content label {
+	display: inline-block !important;
+	margin-left: 5px; }
+
+  #form-builder-container .checkbox_list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none; }
+
+  #form-builder-container #settings-container[data-type="template"] #fieldValue,
+  #form-builder-container #settings-container[data-type="visitor"] #fieldValue {
+	width: 100%;
+	min-height: 300px; }
+
+  #form-builder-container #settings-container .form-check label {
+	display: inline-block !important; }

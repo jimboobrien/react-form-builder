@@ -1,0 +1,24 @@
+{
+	"rules": {
+		"no-descending-specificity": null,
+		"font-weight-notation": null,
+		"font-family-name-quotes": null,
+		"at-rule-empty-line-before": null,
+		"color-named": null,
+		"max-empty-lines": null,
+		"max-line-length": null,
+		"no-duplicate-selectors": null,
+		"font-family-no-missing-generic-family-keyword": null,
+		"function-url-quotes": null,
+		"value-list-comma-newline-after": null,
+		"selector-pseudo-element-colon-notation": "double",
+		"declaration-property-unit-whitelist": {
+			"line-height": [ "em", "rem", "px" ]
+		},
+		"rule-empty-line-before": null,
+		"selector-id-pattern": null,
+		"selector-list-comma-newline-after": null,
+		"block-opening-brace-newline-after": null,
+		"block-closing-brace-newline-before": null
+	}
+}
